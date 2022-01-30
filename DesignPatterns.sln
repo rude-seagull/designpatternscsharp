@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Notification", "Decorator.Notification\Decorator.Notification.csproj", "{B56C4B78-0B82-47DC-BC0D-EF9F0D3FB19D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Menu", "Decorator.Menu\Decorator.Menu.csproj", "{103B4284-84B7-45A9-BEB3-28B765030623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Player", "Decorator.Player\Decorator.Player.csproj", "{A2D65147-E0A9-4321-81DA-2E4C01FED1A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B56C4B78-0B82-47DC-BC0D-EF9F0D3FB19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B56C4B78-0B82-47DC-BC0D-EF9F0D3FB19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B56C4B78-0B82-47DC-BC0D-EF9F0D3FB19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B56C4B78-0B82-47DC-BC0D-EF9F0D3FB19D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{103B4284-84B7-45A9-BEB3-28B765030623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{103B4284-84B7-45A9-BEB3-28B765030623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{103B4284-84B7-45A9-BEB3-28B765030623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{103B4284-84B7-45A9-BEB3-28B765030623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D65147-E0A9-4321-81DA-2E4C01FED1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D65147-E0A9-4321-81DA-2E4C01FED1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D65147-E0A9-4321-81DA-2E4C01FED1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D65147-E0A9-4321-81DA-2E4C01FED1A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
