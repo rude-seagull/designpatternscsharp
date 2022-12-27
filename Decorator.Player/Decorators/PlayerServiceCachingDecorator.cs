@@ -1,4 +1,6 @@
-﻿using Decorator.Player.Contracts;
+﻿using System;
+using System.Collections.Generic;
+using Decorator.Player.Contracts;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace Decorator.Player.Decorators;
@@ -22,9 +24,9 @@ public class PlayerServiceCachingDecorator : IPlayerService
         if (!_memoryCache.TryGetValue(GetPlayersCacheKey, out IEnumerable<IPlayer> players))
         {
             players = _playerService.GetPlayers();
-            
+
             _memoryCache.Set(
-                GetPlayersCacheKey, 
+                GetPlayersCacheKey,
                 new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(value: 1)));
         }
 

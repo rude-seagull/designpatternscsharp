@@ -1,4 +1,5 @@
-﻿using Decorator.Menu.Contracts;
+﻿using System.Collections.Generic;
+using Decorator.Menu.Contracts;
 using Decorator.Menu.Decorators;
 
 namespace Decorator.Menu.Builders;
@@ -6,9 +7,8 @@ namespace Decorator.Menu.Builders;
 public class MenuBuilder
 {
     private readonly IEnumerable<IMenuItem> _menuItems;
-
-    private bool _withDiscounts;
     private double _discountPercentage;
+    private bool _withDiscounts;
 
     public MenuBuilder(IEnumerable<IMenuItem> menuItems)
     {
@@ -26,8 +26,10 @@ public class MenuBuilder
     {
         IMenu menu = new Models.Menu(_menuItems);
 
-        if(_withDiscounts) 
+        if (_withDiscounts)
+        {
             menu = new DiscountMenu(menu, _discountPercentage);
+        }
 
         return menu;
     }

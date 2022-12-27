@@ -1,4 +1,5 @@
-﻿using Decorator.Player.Contracts;
+﻿using System.Collections.Generic;
+using Decorator.Player.Contracts;
 using Microsoft.Extensions.Logging;
 
 namespace Decorator.Player.Decorators;
@@ -9,7 +10,7 @@ public class PlayerServiceLoggingDecorator : IPlayerService
     private readonly IPlayerService _playerService;
 
     public PlayerServiceLoggingDecorator(
-        IPlayerService playerService, 
+        IPlayerService playerService,
         ILogger<PlayerServiceLoggingDecorator> logger)
     {
         _playerService = playerService;

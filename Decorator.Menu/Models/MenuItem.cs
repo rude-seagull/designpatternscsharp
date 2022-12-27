@@ -17,7 +17,10 @@ public class MenuItem : IMenuItem
 
     public override string ToString()
     {
-        var specialDisplay = IsSpecial ? "Special item : " : string.Empty;
+        var specialDisplay = IsSpecial
+            ? "Special item : "
+            : string.Empty;
+        
         return $"{specialDisplay}{Name} : {Price} euros";
     }
 }

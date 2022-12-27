@@ -1,11 +1,13 @@
-﻿using Decorator.Menu.Contracts;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Decorator.Menu.Contracts;
 
 namespace Decorator.Menu.Decorators;
 
 public class DiscountMenu : IMenu
 {
-    private readonly IMenu _menu;
     private readonly double _discountPercentage;
+    private readonly IMenu _menu;
 
     public DiscountMenu(IMenu menu, double discountPercentage)
     {
@@ -14,7 +16,7 @@ public class DiscountMenu : IMenu
     }
 
     public IEnumerable<IMenuItem> Items => _menu.Items.Select(ToDiscountMenuItems);
-    
+
     private IMenuItem ToDiscountMenuItems(IMenuItem menuItem)
     {
         return new DiscountMenuItem(menuItem, _discountPercentage);
