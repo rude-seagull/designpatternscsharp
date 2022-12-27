@@ -2,7 +2,6 @@
 A personal reference on some commonly used design patterns.
 ## Decorator
 Decorator is a __structural__ design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
-
 - Decorator.Menu is a very simple demo of the base principle combined with the builder pattern.
 - Decorator.Player is a little more complex, showcasing how to decorate a service with caching and logging, helped by Scrutor.
 ### Decorator Acknowledgements
@@ -10,4 +9,10 @@ Decorator is a __structural__ design pattern that lets you attach new behaviors 
 - [Decorator.Menu by SingletonSean (video)](https://youtu.be/4EaBHb2HBwI)
 - [Decorator.Player by Ankit Kashyap (blog)](https://quizdeveloper.com/tips/clear-solid-with-decorator-design-pattern-in-ccshap-aspdotnet-core-aid1317)
 - [The decorator pattern by Refactoring.Guru ](https://refactoring.guru/design-patterns/decorator)
+## Singleton
+Singleton is a __creational__ design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+### Singleton Acknowledgements
+- [The singleton pattern by Refactoring.Guru ](https://refactoring.guru/design-patterns/singleton)
+
+
 
