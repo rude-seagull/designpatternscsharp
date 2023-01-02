@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Player", "Decorat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Logger", "Singleton.Logger\Singleton.Logger.csproj", "{70AB95FA-D6DC-4369-827B-6B4EC737CCEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.DiscountService", "FactoryMethod.DiscountService\FactoryMethod.DiscountService.csproj", "{EFA5A805-7CFB-4674-98E8-C37C40941E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{70AB95FA-D6DC-4369-827B-6B4EC737CCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70AB95FA-D6DC-4369-827B-6B4EC737CCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70AB95FA-D6DC-4369-827B-6B4EC737CCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA5A805-7CFB-4674-98E8-C37C40941E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA5A805-7CFB-4674-98E8-C37C40941E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA5A805-7CFB-4674-98E8-C37C40941E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA5A805-7CFB-4674-98E8-C37C40941E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
