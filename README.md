@@ -14,6 +14,12 @@ Singleton is a __creational__ design pattern that lets you ensure that a class h
 - Singleton.Logger represents a simple thread safe logger. Nowadays singleton lifetime is handled by most if not all populars IoC containers, but this is a good example of how to implement it manually.
 ### Singleton Acknowledgements
 - [The singleton pattern by Refactoring.Guru ](https://refactoring.guru/design-patterns/singleton)
-
+- [C# 10 Design Patterns by Kevin Dockx (Pluralsight)](https://app.pluralsight.com/library/courses/c-sharp-10-design-patterns/table-of-contents)
+## Factory Method
+Factory Method is a __creational__ design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+- FactoryMethod.DiscountService uses abstracts classes to create different types of discount services.
+### Factory Method Acknowledgements
+- [The factory method pattern by Refactoring.Guru ](https://refactoring.guru/design-patterns/factory-method)
+- [C# 10 Design Patterns by Kevin Dockx (Pluralsight)](https://app.pluralsight.com/library/courses/c-sharp-10-design-patterns/table-of-contents)
 
 
